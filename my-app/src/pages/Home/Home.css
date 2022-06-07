@@ -1,0 +1,22 @@
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 95%;
+  background-color: blueviolet;
+  height: 700px;
+  position: relative;
+}
+
+.feedback-btn {
+  width: 50px;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+.feedback-btn:hover {
+  cursor: pointer;
+}
